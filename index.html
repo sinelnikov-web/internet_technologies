@@ -1,13 +1,201 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>My simple page</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
 </head>
 <body>
-<h1>It's my simple page.</h1>
-<h3>But... who am I?</h3>
-<p>Sinelnikov Maxim!</p>
+<main class="portfolio">
+    <div class="container">
+        <div class="page">
+            <aside class="portfolio__sidebar sidebar">
+                <div class="sidebar__photo">
+                    <img src="http://placehold.it/250x250" alt="">
+                </div>
+                <div class="sidebar__block">
+                    <h2 class="sidebar__block-heading">Контакты</h2>
+                    <div class="sidebar__block-content">
+                        <ul class="list contacts">
+                            <li class="list__item contacts__item">
+                                <img src="./assets/images/phone-svgrepo-com.svg" alt="">
+                                <a href="#">+7 705 279 8196</a>
+                            </li>
+                            <li class="list__item contacts__item">
+                                <img src="./assets/images/mail-svgrepo-com%20(1).svg" alt="">
+                                <a href="#">sinelnikov-web@mail.ru</a>
+                            </li>
+                            <li class="list__item contacts__item">
+                                <img src="./assets/images/github-svgrepo-com.svg" alt="">
+                                <a href="#">/sinelnikov-web/</a>
+                            </li>
+                            <li class="list__item contacts__item">
+                                <img src="./assets/images/instagram-svgrepo-com.svg" alt="">
+                                <a href="#">/sinelnikov.web/</a>
+                            </li>
+                            <li class="list__item contacts__item">
+                                <img src="./assets/images/vk-svgrepo-com.svg" alt="">
+                                <a href="#">/sinelnikov_web/</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sidebar__block">
+                    <h2 class="sidebar__block-heading">Языки</h2>
+                    <div class="sidebar__block-content">
+                        <ul class="list">
+                            <li class="list__item">
+                                <div class="language">
+                                    <span class="language__name">Английский</span>
+                                    <div class="language__level">
+                                        <div class="language__progress">
+                                            <div class="language__progress-circle progress-circle--active"></div>
+                                            <div class="language__progress-circle progress-circle--active"></div>
+                                            <div class="language__progress-circle progress-circle--active"></div>
+                                            <div class="language__progress-circle"></div>
+                                            <div class="language__progress-circle"></div>
+                                        </div>
+                                        <div class="language__progress-name">
+                                            B1 - Средний
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sidebar__block">
+                    <h2 class="sidebar__block-heading">Навыки</h2>
+                    <div class="sidebar__block-content">
+                        <ul class="list">
+                            <li class="list__item">
+                                <div class="skill">
+                                    <div class="skill__dot"></div>
+                                    <div class="skill__info">
+                                        <span class="skill__name">JavaScript</span>
+                                        <div class="skill__progress">
+                                            <div class="skill__progress-line skill__progress-line--75"></div>
+                                            <span class="skill__progress-name">Опытный</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list__item">
+                                <div class="skill">
+                                    <div class="skill__dot"></div>
+                                    <div class="skill__info">
+                                        <span class="skill__name">HTML5</span>
+                                        <div class="skill__progress">
+                                            <div class="skill__progress-line skill__progress-line--75"></div>
+                                            <span class="skill__progress-name">Опытный</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+            <div class="portfolio__body">
+                <h1 class="portfolio__title">Синельников Максим Александрович</h1>
+                <div class="portfolio__additional-info">
+                    <ul class="list list--row portfolio__additional-list">
+                        <li class="list__item">
+                            <img src="./assets/images/location-svgrepo-com.svg" alt="">
+                            <p class="portfolio__additional-text">
+                                Усть-Каменогорск
+                            </p>
+                        </li>
+                        <li class="list__item">
+                            <img src="./assets/images/information-svgrepo-com.svg" alt="">
+                            <p class="portfolio__additional-text">
+                                Возраст: 20 лет
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="portfolio__information-block information-block">
+                    <div class="information-block__head">
+                        <h2 class="information-block__title">Образование</h2>
+                        <div class="information-block__line"></div>
+                        <div class="information-block__icon">
+                            <img src="./assets/images/education-svgrepo-com.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="information-block__content">
+                        <ul class="list timeline">
+                            <li class="list__item timeline__item">
+                                <span class="timeline__date">2020</span>
+                                <div class="timeline__info">
+                                    <p class="timeline__text">
+                                        КГУ средняя школа №11 г.Алтай: <span>Среднее</span>
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="list__item timeline__item">
+                                <span class="timeline__date">2024</span>
+                                <div class="timeline__info">
+                                    <p class="timeline__text">
+                                        Восточно-Казахстанский технический университет им. Серикбаева: <span>Бакалавр</span><br>
+                                        <i>Школа информационных технологий и интеллектуальных систем, Вычислительная техника и программное обеспечение</i>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="portfolio__information-block information-block">
+                    <div class="information-block__head">
+                        <h2 class="information-block__title">Курсы</h2>
+                        <div class="information-block__line"></div>
+                        <div class="information-block__icon">
+                            <img src="./assets/images/file-svgrepo-com.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="information-block__content">
+                        <ul class="list timeline">
+                            <li class="list__item timeline__item">
+                                <span class="timeline__date">2019</span>
+                                <div class="timeline__info">
+                                    <p class="timeline__text">
+                                        КГУ средняя школа №11 г.Алтай <br>
+                                        <i>Веб верстальщик</i>
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="list__item timeline__item">
+                                <span class="timeline__date">2019</span>
+                                <div class="timeline__info">
+                                    <p class="timeline__text">
+                                        Coursera: <br>
+                                        <i>Основы программирования на Python</i>
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="list__item timeline__item">
+                                <span class="timeline__date">2020</span>
+                                <div class="timeline__info">
+                                    <p class="timeline__text">
+                                        Udemy: <br>
+                                        <i>Разработка vk/telegram ботов на Python</i>
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="list__item timeline__item">
+                                <span class="timeline__date">2020</span>
+                                <div class="timeline__info">
+                                    <p class="timeline__text">
+                                        JetBrains: <br>
+                                        <i>Создание web приложений на Django</i>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
 </body>
 </html>
