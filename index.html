@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <title>Portfolio</title>
     <link rel="stylesheet" href="assets/styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body>
 <main class="portfolio">
-    <div class="container">
-        <div class="page">
-            <aside class="portfolio__sidebar sidebar">
+    <div class="container-md mx-auto row justify-content-center">
+        <div class="page px-0 col-sm-12 col-md-10 col-lg-10 col-xl-8 col-12 row">
+            <aside class="portfolio__sidebar sidebar col-4">
                 <div class="sidebar__photo">
-                    <img src="http://placehold.it/250x250" alt="">
+                    <img class="img-fluid" src="http://placehold.it/250x250" alt="">
                 </div>
                 <div class="sidebar__block">
                     <h2 class="sidebar__block-heading">Контакты</h2>
@@ -45,9 +46,9 @@
                     <div class="sidebar__block-content">
                         <ul class="list">
                             <li class="list__item">
-                                <div class="language">
-                                    <span class="language__name">Английский</span>
-                                    <div class="language__level">
+                                <div class="language row gy-2">
+                                    <span class="language__name col-md-12 col-lg-4 col-md-4 col-12">Английский</span>
+                                    <div class="language__level col-md- 12 col-lg-8 col-md-8 col-12">
                                         <div class="language__progress">
                                             <div class="language__progress-circle progress-circle--active"></div>
                                             <div class="language__progress-circle progress-circle--active"></div>
@@ -96,7 +97,7 @@
                     </div>
                 </div>
             </aside>
-            <div class="portfolio__body">
+            <div class="portfolio__body col-8">
                 <h1 class="portfolio__title">Синельников Максим Александрович</h1>
                 <div class="portfolio__additional-info">
                     <ul class="list list--row portfolio__additional-list">
@@ -124,17 +125,17 @@
                     </div>
                     <div class="information-block__content">
                         <ul class="list timeline">
-                            <li class="list__item timeline__item">
-                                <span class="timeline__date">2020</span>
-                                <div class="timeline__info">
+                            <li class="list__item timeline__item row">
+                                <span class="timeline__date col-2">2020</span>
+                                <div class="timeline__info col-10">
                                     <p class="timeline__text">
                                         КГУ средняя школа №11 г.Алтай: <span>Среднее</span>
                                     </p>
                                 </div>
                             </li>
-                            <li class="list__item timeline__item">
-                                <span class="timeline__date">2024</span>
-                                <div class="timeline__info">
+                            <li class="list__item timeline__item row">
+                                <span class="timeline__date col-2">2024</span>
+                                <div class="timeline__info col-10">
                                     <p class="timeline__text">
                                         Восточно-Казахстанский технический университет им. Серикбаева: <span>Бакалавр</span><br>
                                         <i>Школа информационных технологий и интеллектуальных систем, Вычислительная техника и программное обеспечение</i>
@@ -154,36 +155,36 @@
                     </div>
                     <div class="information-block__content">
                         <ul class="list timeline">
-                            <li class="list__item timeline__item">
-                                <span class="timeline__date">2019</span>
-                                <div class="timeline__info">
+                            <li class="list__item timeline__item row">
+                                <span class="timeline__date col-2">2019</span>
+                                <div class="timeline__info col-10">
                                     <p class="timeline__text">
                                         КГУ средняя школа №11 г.Алтай <br>
                                         <i>Веб верстальщик</i>
                                     </p>
                                 </div>
                             </li>
-                            <li class="list__item timeline__item">
-                                <span class="timeline__date">2019</span>
-                                <div class="timeline__info">
+                            <li class="list__item timeline__item row">
+                                <span class="timeline__date col-2">2019</span>
+                                <div class="timeline__info col-10">
                                     <p class="timeline__text">
                                         Coursera: <br>
                                         <i>Основы программирования на Python</i>
                                     </p>
                                 </div>
                             </li>
-                            <li class="list__item timeline__item">
-                                <span class="timeline__date">2020</span>
-                                <div class="timeline__info">
+                            <li class="list__item timeline__item row">
+                                <span class="timeline__date col-2">2020</span>
+                                <div class="timeline__info col-10">
                                     <p class="timeline__text">
                                         Udemy: <br>
                                         <i>Разработка vk/telegram ботов на Python</i>
                                     </p>
                                 </div>
                             </li>
-                            <li class="list__item timeline__item">
-                                <span class="timeline__date">2020</span>
-                                <div class="timeline__info">
+                            <li class="list__item timeline__item row">
+                                <span class="timeline__date col-2">2020</span>
+                                <div class="timeline__info col-10">
                                     <p class="timeline__text">
                                         JetBrains: <br>
                                         <i>Создание web приложений на Django</i>
